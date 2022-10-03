@@ -20,5 +20,5 @@ P-value for the three lots combined, we have 0.06028 which is higher than our cr
 ![t-test-lot2](https://github.com/dilnigar1007/MechaCar_Statistical_Analysis/blob/main/images/t-test(lot2).png)
 ![t-test-lot3](https://github.com/dilnigar1007/MechaCar_Statistical_Analysis/blob/main/images/t-test(lot3).png)
 
-##Study Design: MechaCar vs Competition
+## Study Design: MechaCar vs Competition
 I would probably test these two metrics city or highway fuel efficiency and horse power because people are usually interested in how much gallon of gas a car takes per mile city vs. highway. And people who enjoy cars, they are specifically interested in horse power. But for this analysis, for simplicity, I would go with horse power. Null hypothesis is that all cars have the same horse power regardless of the class or make. Alternative hypothesis is that it's not the same for all cars. I would use two sample t-test for this since I would like to see whether there is a statistical difference between the distribution means from two samples. Two samples in this analysis would be Mecha cars and competition cars. Since we already have MPG, PSI, and manufacturing lot information in our dataset, we only need to collect horsepower data of both Mecha cars and competitor cars in order to complete this analysis. 
